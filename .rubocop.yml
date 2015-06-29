@@ -1,0 +1,74 @@
+AllCops:
+  Exclude:
+    - 'Guardfile'
+
+Style/BlockDelimiters:
+  EnforcedStyle: semantic
+  IgnoredMethods:
+    - lambda
+    - it
+    - its
+    - let
+    - proc
+  Exclude:
+    - 'spec/spec_helper.rb'
+
+Style/BracesAroundHashParameters:
+  Enabled: false
+
+# Style/EmptyLinesAroundBlockBody:
+#   Exclude:
+#     - '**/db/schema.rb'
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Style/MultilineOperationIndentation:
+  Enabled: false
+
+Style/Next:
+  Enabled: false
+
+Style/RedundantReturn:
+  AllowMultipleReturnValues: true
+
+Style/RedundantSelf:
+  Enabled: false
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+# Style/SingleSpaceBeforeFirstArg:
+#   Exclude:
+#     - '**/db/migrate/*'
+
+# this makes it clearer that something is a hash vs a block
+Style/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Style/WordArray:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Max: 20
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Max: 15
