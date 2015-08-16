@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Srm::VERSION
   spec.authors       = ["Matt Chun-Lum\n"]
   spec.email         = ['mchunlum@gmail.com']
-  spec.summary       = 'Simple repo managment'
+  spec.summary       = 'Uncomplicated multiple repository management'
   spec.description   = 'Uncomplicated multiple repository management'
   spec.homepage      = ''
   spec.license       = 'MIT'

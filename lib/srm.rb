@@ -1,5 +1,5 @@
 require 'srm/version'
 
-module Srm
+module SRM
   # Your code goes here...
 end
